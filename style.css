@@ -137,7 +137,7 @@ body {
 
   background-image:
     linear-gradient(rgba(123, 15, 29, 0.2), rgba(246, 220, 225, 0.4)),
-    url("images/dance-banner.jpg");
+    url("dance-banner.jpg");
 
   background-size: cover;
   /* Important */
