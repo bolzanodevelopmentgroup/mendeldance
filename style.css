@@ -40,6 +40,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: var(--maroon);
+  text-align: center;
 }
 
 .menu {
@@ -137,7 +138,7 @@ body {
 
   background-image:
     linear-gradient(rgba(123, 15, 29, 0.2), rgba(246, 220, 225, 0.4)),
-    url("dance-banner.jpg");
+    url("dance-banner-2.jpg");
 
   background-size: cover;
   /* Important */
@@ -155,7 +156,7 @@ body {
 /* ================= PREMIUM HEADING + TESTIMONIAL ================= */
 .home-highlight {
   position: relative;
-  padding: 120px 10%;
+  padding: 60px 10%;
   text-align: center;
   background: linear-gradient(135deg, #ffffff, #f9e7ea);
   overflow: hidden;
@@ -284,10 +285,10 @@ footer {
 }
 
 .logo-interactive img {
-  width: 600px;
+  width: 450px;
   transition: all 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
   cursor: pointer;
-  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 33px 25px rgba(0, 0, 0, 0.15));
 }
 
 /* Hover Scale Effect */
@@ -1077,7 +1078,7 @@ footer {
 
 .professionalism-section {
   background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
-    url("your-background-image.jpg") center/cover no-repeat;
+    center/cover no-repeat;
   padding: 30px;
   font-family: 'Segoe UI', sans-serif;
   color: #444;
