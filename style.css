@@ -1079,7 +1079,7 @@ footer {
 .professionalism-section {
   background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
     center/cover no-repeat;
-  padding: 30px;
+  padding: 10px 30px;
   font-family: 'Segoe UI', sans-serif;
   color: #444;
   text-align: left;
@@ -1088,13 +1088,13 @@ footer {
 .content-box {
   max-width: 950px;
 }
+.content-box > h2 > span{border-bottom: 2px solid #7a1f2b;}
 
 .professionalism-section h2 {
   font-size: 28px;
   font-weight: 600;
   color: #7a1f2b;
-  /* elegant wine color */
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .professionalism-section p {
